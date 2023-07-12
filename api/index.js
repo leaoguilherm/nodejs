@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
   res.send('Welcome to API')
 })
 
-app.listen(3033, () => {
+app.listen(80, () => {
   console.log('Servidor sendo executado...')
 })
